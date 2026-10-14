@@ -8,6 +8,7 @@
 [![openpyxl](https://img.shields.io/badge/dep-openpyxl-217346?logo=microsoftexcel&logoColor=white)](https://pypi.org/project/openpyxl/)
 [![CLI](https://img.shields.io/badge/interface-CLI-black?logo=gnubash&logoColor=white)](#-uso)
 [![Plataformas](https://img.shields.io/badge/plataformas-Linux%20%7C%20macOS%20%7C%20Windows-lightgrey)](#)
+[![Licença: MIT](https://img.shields.io/badge/licen%C3%A7a-MIT-yellow.svg)](LICENSE)
 
 </div>
 
@@ -146,6 +147,10 @@ Caracteres especiais no nome da aba viram `_` — `Resumo Q1 (2026)` vira `Resum
 - **Formatos suportados:** `.xlsx` e `.xlsm`. Arquivos `.xls` (Excel 97-2003) não são suportados — abra e salve como `.xlsx` antes.
 - **Caracteres fora do encoding:** se você escolher um encoding como `latin-1` e a planilha tiver caracteres que ele não representa, eles são trocados por `?` em vez de quebrar a conversão.
 - **Erros não param o lote:** se um arquivo estiver corrompido ou protegido, ele entra como `[ERRO]` no log e o script segue para o próximo.
+
+## 📜 Licença
+
+Distribuído sob a licença MIT. Veja [`LICENSE`](LICENSE) para mais detalhes.
 
 ---
 
